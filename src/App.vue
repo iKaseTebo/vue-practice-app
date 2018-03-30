@@ -1,7 +1,11 @@
 <template>
   <div id="app">
+    <ul>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/Users">Users</router-link></li>
+    </ul>
     <img src="./assets/logo.png">
-    <router-view/>
+    <router-view msg="Hello How Are You"/>
   </div>
 </template>
 
